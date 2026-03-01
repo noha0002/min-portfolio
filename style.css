@@ -6,7 +6,7 @@ body, html{
     
 }
 
-/* HERO SECTION */
+/* section one */
 
 
 .one img{
@@ -157,38 +157,91 @@ h1{
 /* section three */
 
 .three {
-    background-color: #e8e4e1;
+    background-color: #d9cec6;
     width: 97%;
     margin-left: 1.5%;
     margin-bottom: 5%;
     padding-top: 1%; 
     padding-bottom: 1%; 
     display: inline-block; 
+   
+    
+    
 }
 
 .grid3{
+   
     justify-content: center;
     align-items: center;
     display: grid;
     grid-template-columns: 1fr 1fr;
      width: 80%;
+    
+     
      
 }
 
+
 .grid3 img{
-    
     margin-left: 67%;
+     position: relative;
+     z-index: 10;
+}
+.about{
+    margin-left: 2%;
+    color: white;
 }
 
 .small{
     width: 40%;
-    filter: saturate(30%);
+   
     
+}
+
+.flower{
+    position: absolute;
+    z-index: 0;
+    width: 70%;
+    margin-left: 2%;
+    margin-top: -13%;
+    transform:rotate(-15deg);
+    pointer-events: none;
+}
+.grid3-p {
+    font-size: 80%;
+    white-space: pre-wrap;
+    width: 250px;
+    color: rgb(117, 94, 94);
+    text-shadow: 0 -2px 6px rgb(255, 243, 243);
+    text-align: justify;
+    padding-left: 66%;
 }
 .big{
      width: 80%;
     height: 600px; 
+    margin-top: -10%;
     object-fit: cover;
     display: block;
+     filter: saturate(30%);
    
 }
+
+.three a{
+    text-decoration: underline;
+    text-underline-offset: 6px;
+    color: rgb(255, 255, 255);
+    font-size: 80%;
+    text-align: justify;
+    padding-left: 2%;
+}
+
+.ul-links{
+    display: flex;
+    
+}
+
+.three a:hover{
+    color: #948e88;
+}
+
+
