@@ -243,7 +243,11 @@ h1{
 .three a:hover{
     color: #948e88;
 }
-
+.one {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
 
 @media (min-width: 1580px) {
   .grid2 img {
@@ -298,7 +302,7 @@ h1{
   
 }
 
-@media (max-width: 430px) {
+@media (max-width: 768px) {
 
   /* SECTION ONE */
   .index-text {
