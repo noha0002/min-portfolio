@@ -245,30 +245,165 @@ h1{
 }
 
 
-@media (min-width: 1600px)  and (max-width: 2000px) {
+@media (min-width: 1580px) {
+  .grid2 img {
+    width: 20vw;
+    height: 27vw;
+  }
 
-    .index-text{
-       margin-top: 17%;
-    }
- .text-grid {
-    position: relative; 
-   padding-top: 10%;   
+  .grid2-p {
+    width: 18vw;
+  }
+
+  .grid3-p {
+    width: 18vw;
+  }
+
+  .index-text{
+    font-size: 2vw;
+  }
+  nav ul li a {
+    font-size: 1vw; 
+  }
+  .love{
+    font-size: 1vw; 
+  }
+
+  .text-grid1{
+    font-size: 1vw;
+  }
+
+  div{
+    font-size: 1vw;
+  }
+
+  .big {
+    height: 40vw;
+     margin-top: 1vw;
+  }
+  .flower{
+     margin-top: -10vw;
+  }
+
+  h1 {
+    font-size: 10.5vw;
+
+    margin-top: 7.8%;
+    margin-left: 11.9%;
+  }
+  .about{
+     font-size: 1vw;
+  }
+
+  
+}
+
+@media (max-width: 430px) {
+
+  /* SECTION ONE */
+  .index-text {
+    margin-top: 70%;
+    font-size: 1em;
+  }
+
+  
+  .one img{
+    height: 70%;
+  }
+
+  .text-grid {
+    margin-top: -55%;
+    width: 88%;
+    font-size: 0.7em;
+  }
+
+  .text-grid1 {
+    display: none;
+  }
+  .text-grid div {
+   margin-top: -15vw;
+}
+ nav{
+    margin-top: -15vw;
+  }
+
+  /* SECTION TWO */
+  h1 {
+    font-size: 2.5em;
+    margin-left: 15%;
+  }
+
+  .grid2 {
+    grid-template-columns: 1fr;
+    width: 85%;
+    margin-left: 7%;
+    padding-top: 35%;
+  }
+
+  .grid2 img {
+    width: 100%;
+    height: 250px;
+  }
+
+  .grid2-p {
+    width: 100%;
+  }
+
+  .two{
+    margin-top: 90%;
+  }
+ 
+
+ 
+
+
+  /* SECTION THREE */
+  .flower { display: none; }
+
+ .three {
+    text-align: center;
+  }
+
+  .about {
+    text-align: center;
+    margin-left: 0;
+  }
+
+    .grid3 {
+    display: block !important;
     width: 90%;
+    margin: 0 auto;
+    text-align: center;
+  }
 
-    }
+  .grid3 img {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
 
-    .text-grid1 {
-    
-    margin-top: 34%;  
+  .small {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .grid3-p {
+    padding-left: 0;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .big {
     width: 90%;
+    height: 300px;
+    margin: 5% auto;
+    display: block;
+  }
 
-    }
-
-    h1{
-        margin-left: 20%;
-        margin-top: 10%;
-        
-    }
-
+  .ul-links {
+    justify-content: center;
+  }
  
 }
